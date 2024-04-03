@@ -10,8 +10,7 @@ rl.on('line', function (line) {
     input = [line];
 }).on('close',function(){
     str = input[0];
-    arr = str.split("");
-    arr.forEach((element) =>{
+    [...str].forEach((element) =>{
         console.log(element);
     });
 });
