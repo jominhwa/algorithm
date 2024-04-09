@@ -8,5 +8,5 @@ function solution(code) {
             e === "1" ? mode = 0 : (i % 2 ? ret += e : '');
         }
     })
-    return !ret ? "EMPTY" : ret;
+    return !ret ? 'EMPTY' : ret;
 }
